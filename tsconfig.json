@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "target": "ES2023",           // Target ECMAScript 2016
+    "lib": ["ES2023","dom"],      // Include ES2016 library definitions
+    "module": "commonjs",         // Use CommonJS module system
+    "esModuleInterop": true,      // Enable interoperability between ES modules and CommonJS
+    "strict": true,               // Enable all strict type-checking options
+    "skipLibCheck": true          // Skip type checking of declaration files
+  }
+}
